@@ -12,6 +12,13 @@ Once sorted by start, an interval can only overlap the merged interval immediate
 
 **Complexity:** O(n log n) time for the sort, O(n) for the output.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
